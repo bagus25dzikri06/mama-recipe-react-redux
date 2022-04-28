@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.body {
+  font-family: 'Lato';
+}
+
+.dark-blue {
+  color: #220765;
+}
+
+h5 {
+  font-size: 200%;
+}
+
+h5.title {
+  font-size: 150%;
+}
+
+.recipe-desc {
+  margin: 0 200px;
+}
+
+.step {
+  margin: 0 60px;
+}
+
+.next-step {
+  top: 150px;
+  right: 90px;
+}
+
+.img-fluid {
+  filter: opacity(0.325) drop-shadow(0 0 0 #b0920a);
+  position: relative;
+}
+
+.new-recipe {
+  padding: 8px;
+  margin: 25px 25px 85px 0;
+}
+
+.new-recipe-bg {
+  text-align: left;
+  left: 130px;
+}
+
+.card-footer {
+  padding: 0!important;
+  margin-bottom: 100px;
+  margin-top: 350px;
+  background-color: unset!important;
+  border-top: unset!important;
+}
+
+.new-food-recipe {
+  position: absolute;
+  bottom: -1080px;
+  left: 35px;
+  -moz-border-radius:35px;
+  -webkit-border-radius:35px;
+  border-radius:35px;
+}
+
+.has-recipe-search .form-control {
+  padding-left: 2.375rem;
+  top: 150px;
+}
+
+.has-recipe-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+.lettuce {
+  position: absolute;
+  top: 30px;
+  right: 80px;
+  -moz-border-radius:185x;
+  -webkit-border-radius:185px;
+  border-radius:185px;
+}
+
+.food-recipe {
+  position: absolute;
+  top: 150px;
+  right: 50px;
+  -moz-border-radius:285x;
+  -webkit-border-radius:285px;
+  border-radius:285px;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 10px;
+  font-size: 125%;
+}
+
+/* The navigation menu */
+.recipe-navbar {
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+
+/* Navigation links */
+.recipe-navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The subnavigation menu */
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: #000000;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.subnav:hover .subnavbtn {
+  font-weight: bold;
+}
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+.box-shadow
+{
+	-webkit-transition: all .2s ease-out;
+	-moz-transition: all .2s ease-out;
+	-ms-transition: all .2s ease-out;
+	-o-transition: all .2s ease-out;
+	transition: all .2s ease-out;
+}
+
+.box-shadow:hover
+{
+	-webkit-transform: translateY(-15px);
+	-moz-transform: translateY(-15px);
+	-ms-transform: translateY(-15px);
+	-o-transform: translateY(-15px);
+	transform: translateY(-15px);
+}
+
+.drag-text {
+  text-align: center;
+}
+
+.drag-text img {
+  padding: 60px 0;
+}
+
+.drag-text img:hover {
+  color: #FFFFFF;
+}
+
+p.steps {
+  font-size: 28px;
+}
+
+p.next-steps {
+  font-size: 16px;
+}
+
+p.steps, p.next-steps {
+  color: #000000;
+  font-weight: bold;
+  margin: 0em;
+}
+
+p.steps-timeline {
+  font-size: 16px;
+  color: #AAAAAA;
+  font-weight: bold;
+}
+
+p.next-steps-timeline {
+  font-size: 10px;
+  color: #AAAAAA;
+  font-weight: bold;
+}
+
+p.steps, p.steps-timeline, p.next-steps, p.next-steps-timeline {
+  text-align: left;
+}
+
+.step {
+  left: 80px;
+}
